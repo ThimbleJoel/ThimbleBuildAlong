@@ -1,5 +1,5 @@
 const int ledSocket = 6;
-const int buttonSocket = 4; 
+const int buttonSocket = 5; 
 int brightness = 0;
 int fadeAmount = 5;
 bool runState = false;
