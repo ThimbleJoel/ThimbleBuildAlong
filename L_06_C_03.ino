@@ -13,7 +13,7 @@ void setup() {
   pinMode(buttonSocket, INPUT);
   lcd.begin(16, 2);
   lcd.setRGB(colorR, colorG, colorB);
-  randomSeed(analogRead(0));
+  randomSeed(analogRead(3));
 }
 
 void loop() {
