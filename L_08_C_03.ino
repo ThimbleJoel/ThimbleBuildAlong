@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include "rgb_lcd.h"
-int buttonSocket = 4;
-int dialSocket = A0;
+const int buttonSocket = 5;
+const int dialSocket = A0;
 
 rgb_lcd lcd;
 const int colorR = 128;
